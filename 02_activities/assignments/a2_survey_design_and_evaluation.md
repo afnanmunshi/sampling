@@ -40,27 +40,32 @@ For the **Canadian General Social Survey on Giving, Volunteering, and Participat
 
 ## Part A - Survey Design: 
 
-The number of your chosen topic: `#`
+The number of your chosen topic: `1`
 
 Describe the purpose of your survey:
 ```
-write your answer here...
+This survey identifies the main reasons entry/lower-level employees leave the company. It measures satisfaction with pay, management, workload, growth, and culture. Results will guide specific retention actions and policy changes.
 ```
 
 Describe your target population, sampling frame, sampling units, and observational units:
 ```
-write your answer here...
+Target population: All current entry and lower-level employees, as well as employees who left in the last 6–12 months.
+Sampling frame: HRIS employee roster + exit list (last 6–12 months) with work email (and personal email for leavers).
+Sampling unit: Individual employee or former employee.
+Observational unit: Individual survey response.
+Sampling strategy: Stratified random sample by department, location, job level (to ensure coverage of high-turnover areas).
+Recruitment: Email invite and 2 reminders with anonymous survey link.
 ```
 
 Your 5-10 question survey:
 ```
-1. write your question here...
-2. write your question here...
-3. write your question here...
-4. write your question here...
-5. write your question here...
-6. write your question here... (optional)
-7. write your question here... (optional)
+1. What is your current status? (Current employee / Left in last 12 months)
+2. Which department do/did you work in? (Dropdown)
+3. How long have/did you work here? (<6 months / 6–12 / 1–2 years / 2+ years)
+4. Overall, how satisfied are you with your job with 1 being not satisfied and 5 Very satisfied? (1–5)
+5. What are the top 2 reasons you would leave (or left)? (Pay / Manager / Workload / Growth / Culture / Flexibility / Commute / Benefits / Other)
+6. Which change would most increase your likelihood to stay (or would have kept you)? (Pay / Growth / Manager training / Workload / Flexibility / Team culture / Other)
+7. One short suggestion for what the company should change first. (Text)
 8. write your question here... (optional)
 9. write your question here... (optional)
 10. write your question here... (optional)
@@ -71,7 +76,19 @@ Your 5-10 question survey:
 Identify and describe survey features:
 
 ```
-write your answer here
+1. Sample type: Cross-sectional probability sample using a stratified, two-stage design.
+2. Sample size: Approximately 24,000 completed interviews from a larger initial sample.
+3. Target population: Canadians aged 15 and older living in private households in the ten provinces.
+4. Sampling frame: Statistics Canada dwelling frame linked to landline and cellular telephone numbers.
+5. Survey mode(s): Mixed-mode data collection using online questionnaires and telephone interviews (CATI).
+6. Timeline: Data collection occurred from September to December 2018.
+7. Response rate: The overall response rate was approximately 41.9%.
+8. Weights: Person-level survey weights and bootstrap weights were provided to ensure population representativeness.
+9. Data processing: Data were processed using Statistics Canada’s generalized survey processing system with automated and manual edits.
+10. Cleaning, imputation, etc: Missing or inconsistent responses were addressed using donor-based and mean imputation methods.
+11. Sources of error: Sampling error and non-sampling error, including non-response, coverage, and response bias.
+12. Limitations, known biases, etc: Excludes residents of the territories and institutionalized populations; potential non-response bias remains despite weighting adjustments.
+13. Link to documentation and sources: Statistics Canada GSS Cycle 33 documentation and Public Use Microdata File (PUMF).
 ```
 
 ## Rubric
